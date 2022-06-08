@@ -67,9 +67,13 @@
     "@dcloudio/uni-quickapp-webview": "^2.0.1-34920220607002",
     "@dcloudio/uni-stat": "^2.0.1-34920220607002",
     "@vue/shared": "^3.0.0",
+    "cache-loader": "^4.1.0",
     "core-js": "^3.6.5",
+    "file-loader": "^6.2.0",
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.12.1",
+    "thread-loader": "^3.0.4",
+    "url-loader": "^4.1.1",
     "vue": "^2.6.11",
     "vuex": "^3.2.0"
   },
@@ -89,12 +93,17 @@
     "@vue/cli-plugin-babel": "~4.5.15",
     "@vue/cli-service": "~4.5.15",
     "babel-plugin-import": "^1.11.0",
+    "compression-webpack-plugin": "^6.1.1",
     "cross-env": "^7.0.2",
+    "html-webpack-plugin": "^5.5.0",
     "jest": "^25.4.0",
     "mini-types": "*",
     "miniprogram-api-typings": "*",
     "postcss-comment": "^2.0.0",
-    "vue-template-compiler": "^2.6.11"
+    "sass": "^1.52.2",
+    "sass-loader": "^10.2.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.29.5"
   },
   "browserslist": [
     "Android >= 4.4",
