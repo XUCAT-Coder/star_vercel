@@ -74,6 +74,8 @@
       "proxy": {
         "/api": {
           "target": "https://star-api-sand.vercel.app",
+          "changeOrigin": true,
+          "secure": true,
           "pathRewrite": {
             "^/api": ""
           }
