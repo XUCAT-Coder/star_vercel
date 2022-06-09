@@ -80,6 +80,7 @@ export default {
         console.log(typeof this.form.password);
         uni.request({
           url: this.serveUrl + "/login/match",
+          header: { "content-type": "application/json" },
           data: {
             user: this.form.user,
             psw: this.form.password,

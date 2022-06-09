@@ -2,7 +2,7 @@ import App from "./App";
 
 // #ifndef VUE3
 import Vue from "vue";
-Vue.config.productionTip = false;
+Vue.config.productionTip = true;
 Vue.prototype.serveUrl = "/api";
 // Vue.prototype.serveUrl='http://10.22.1.181:3000'
 
