@@ -74,11 +74,10 @@
       "mode": "history"
     },
     "devServer": {
-      "https": true,
       "disableHostCheck": true,
       "proxy": {
         "/api": {
-          "target": "https://star-api-sand.vercel.app/",
+          "target": "https://star-api-sand.vercel.app",
           "changeOrigin": true,
           "secure": true,
           "pathRewrite": {
